@@ -1,12 +1,35 @@
+Settings Manager--> Window Manager--> Keyboard--> Tile Windows... 
+
 <Control><Left>
+  Tile Left
 <Control><Right>
+  Tile Right
 <Control><Up>
+  Tile Up
 <Control><Down>
+  Tile Down
 
+Settings Manager--> Window Manager--> Keyboard--> Maximize
 <Control><Shift><Up>
-<Control><Shift><Down>
-<Control><Shift><Left>
-<Control><Shift><Right>
+  Maximize Window
 
+Settings Manager--> Window Manager--> Keyboard--> Lower
+<Control><Shift><Down>
+  Lower Window
+  
+Settings Manager--> Keyboard--> Application Shortcuts...
+<Control><Shift><Left>
+  xdotool getactivewindow windowmove 0 77 windowsize 1920 1029
+  (Move window full screen left monitor)
+  
+<Control><Shift><Right>
+  xdotool getactivewindow windowmove 1920 52 windowsize 1280 998
+  (Move window full screen right monitor)
+  
+Settings Manager--> Window Manager--> Keyboard--> Close
 <Control><End>
+  Close Window
+  
+Settings Manager--> Keyboard--> Application Shortcuts...
 <Control><Shift><Escape>
+  X-Kill
