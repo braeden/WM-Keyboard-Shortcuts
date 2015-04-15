@@ -1,0 +1,12 @@
+<Control><Left>
+<Control><Right>
+<Control><Up>
+<Control><Down>
+
+<Control><Shift><Up>
+<Control><Shift><Down>
+<Control><Shift><Left>
+<Control><Shift><Right>
+
+<Control><End>
+<Control><Shift><Escape>
