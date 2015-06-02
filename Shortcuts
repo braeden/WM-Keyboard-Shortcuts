@@ -21,11 +21,11 @@ Settings Manager--> Window Manager--> Keyboard--> Lower
   
 Settings Manager--> Keyboard--> Application Shortcuts...
 <Control><Shift><Left>
-  xdotool getactivewindow windowmove 0 77 windowsize 1920 1029
+  `xdotool getactivewindow windowmove 0 77 windowsize 1920 1029`
   (Move window full screen left monitor)
   
 <Control><Shift><Right>
-  xdotool getactivewindow windowmove 1920 52 windowsize 1280 998
+  `xdotool getactivewindow windowmove 1920 52 windowsize 1280 998`
   (Move window full screen right monitor)
   
 Settings Manager--> Window Manager--> Keyboard--> Close
@@ -35,3 +35,9 @@ Settings Manager--> Window Manager--> Keyboard--> Close
 Settings Manager--> Keyboard--> Application Shortcuts...
 <Control><Shift><Escape>
   X-Kill
+
+
+<F6>
+  `brightness down`
+<F7>
+  `brightness up`
